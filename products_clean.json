@@ -1,0 +1,534 @@
+[
+{
+  "model": "app.product",
+  "pk": 4,
+  "fields": {
+    "name": "Apple iPhone 15 (128GB)",
+    "price": 79900.0,
+    "description": "The Apple iPhone 15 features the powerful A16 Bionic chip, a 48MP main camera, Dynamic Island, USB-C charging, and a stunning 6.1-inch Super Retina XDR display for exceptional performance and photography.",
+    "image": "products/iphone-15.png",
+    "stock": 25,
+    "category": "Mobile",
+    "rating": 4.8,
+    "reviews_count": 128,
+    "discount_percent": 10,
+    "warranty": "1 Year Warranty",
+    "return_policy": "7 Day Return Policy",
+    "delivery_info": "Free Delivery in 2-4 Days",
+    "highlights": [
+      "48MP Main Camera",
+      "A16 Bionic Chip",
+      "6.1-inch Super Retina XDR Display",
+      "Dynamic Island",
+      "USB-C Charging",
+      "Face ID",
+      "128GB Storage",
+      "5G Connectivity"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 5,
+  "fields": {
+    "name": "Samsung Galaxy S23 (128GB)",
+    "price": 59999.0,
+    "description": "The Samsung Galaxy S23 delivers flagship performance with the Snapdragon 8 Gen 2 processor, a stunning 120Hz Dynamic AMOLED 2X display, a professional triple-camera system, and all-day battery life.",
+    "image": "products/samsun-s23.png",
+    "stock": 34,
+    "category": "Mobile",
+    "rating": 4.9,
+    "reviews_count": 198,
+    "discount_percent": 11,
+    "warranty": "9 Months Warranty",
+    "return_policy": "8 Day Return Policy",
+    "delivery_info": "Free Delivery in 1-2 Days",
+    "highlights": [
+      "50MP Triple Camera",
+      "Snapdragon 8 Gen 2 Processor",
+      "120Hz Dynamic AMOLED 2X Display",
+      "3900mAh Battery",
+      "Fast Wireless Charging",
+      "8GB RAM",
+      "128GB Storage",
+      "5G Connectivity"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 6,
+  "fields": {
+    "name": "Apple MacBook Air M2 (8GB/256GB)",
+    "price": 114900.0,
+    "description": "The Apple MacBook Air M2 combines exceptional performance with an ultra-thin and lightweight design. Powered by the Apple M2 chip, it delivers smooth multitasking, brilliant visuals, and outstanding battery life for students and professionals.",
+    "image": "products/macbook-air.png",
+    "stock": 18,
+    "category": "Laptop",
+    "rating": 4.1,
+    "reviews_count": 20,
+    "discount_percent": 15,
+    "warranty": "1.5 Year Warranty",
+    "return_policy": "14 Day Return Policy",
+    "delivery_info": "Free Delivery in 1 Day",
+    "highlights": [
+      "Apple M2 Chip",
+      "13.6-inch Liquid Retina Display",
+      "8GB Unified Memory",
+      "256GB SSD Storage",
+      "Up to 18 Hours Battery Life",
+      "Backlit Magic Keyboard",
+      "Touch ID",
+      "Ultra Thin & Lightweight"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 7,
+  "fields": {
+    "name": "Dell Inspiron 15 (Intel i5/8GB/512GB SSD)",
+    "price": 55990.0,
+    "description": "The Dell Inspiron 15 is designed for work, study, and entertainment. Powered by the 12th Gen Intel Core i5 processor with 8GB RAM and a fast 512GB SSD, it delivers smooth multitasking and reliable everyday performance.",
+    "image": "products/dell-inspiron.png",
+    "stock": 5,
+    "category": "Mobile",
+    "rating": 4.8,
+    "reviews_count": 33,
+    "discount_percent": 15,
+    "warranty": "1 Year Warranty",
+    "return_policy": "5 Day Return Policy",
+    "delivery_info": "Free Delivery in 3-6 Days",
+    "highlights": [
+      "12th Gen Intel Core i5 Processor",
+      "15.6-inch Full HD Anti-Glare Display",
+      "8GB DDR4 RAM",
+      "512GB NVMe SSD",
+      "Intel Iris Xe Graphics",
+      "Windows 11 Home",
+      "Backlit Keyboard",
+      "Fast Charging Support"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 8,
+  "fields": {
+    "name": "Seiko 5 Sports Automatic Watch (SRPD55K1)",
+    "price": 74999.0,
+    "description": "The Seiko 5 Sports SRPD55K1 is a stylish automatic watch featuring the reliable 4R36 movement, a durable stainless steel case, 100m water resistance, a Hardlex crystal, and a sporty black dial with luminous hands and markers.",
+    "image": "products/Seiko-5-Sport.png",
+    "stock": 4,
+    "category": "Accessory",
+    "rating": 4.8,
+    "reviews_count": 89,
+    "discount_percent": 10,
+    "warranty": "5 Months Warranty",
+    "return_policy": "7 Day Return Policy",
+    "delivery_info": "Free Delivery in 2-4 Days",
+    "highlights": [
+      "Automatic 4R36 Movement (Self-Winding)",
+      "42.5mm Stainless Steel Case",
+      "Black Dial with LumiBrite Hands & Markers",
+      "Hardlex Scratch-Resistant Crystal",
+      "100M Water Resistance",
+      "Day & Date Display",
+      "Transparent Exhibition Case Back",
+      "Unidirectional Rotating Bezel",
+      "Stainless Steel Bracelet",
+      "Fold-Over Clasp with Safety Lock"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 9,
+  "fields": {
+    "name": "Cartier Tank Must Watch (Large Model)",
+    "price": 389999.0,
+    "description": "The Cartier Tank Must Watch is a timeless luxury timepiece featuring a polished stainless steel case, elegant silvered dial with Roman numerals, blued-steel sword-shaped hands, Swiss quartz movement, and a premium leather strap. Its iconic rectangular design makes it perfect for both formal and everyday wear.",
+    "image": "products/generate-cartier-tank.png",
+    "stock": 7,
+    "category": "Accessory",
+    "rating": 5.0,
+    "reviews_count": 56,
+    "discount_percent": 25,
+    "warranty": "2 Year Warranty",
+    "return_policy": "7 Day Return Policy",
+    "delivery_info": "Free Delivery in 2-7 Days",
+    "highlights": [
+      "Swiss Quartz Movement",
+      "Rectangular Stainless Steel Case",
+      "Silvered Dial with Roman Numerals",
+      "Blue Steel Sword-Shaped Hands",
+      "Scratch-Resistant Sapphire Crystal",
+      "Premium Black Leather Strap",
+      "Water Resistant up to 30M",
+      "Classic Cartier Tank Design",
+      "Luxury Dress Watch",
+      "Secure Pin Buckle Closure"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 10,
+  "fields": {
+    "name": "Nike Ebernon Low Sneakers",
+    "price": 7095.0,
+    "description": "The Nike Ebernon Low Sneakers combine classic 1980s basketball-inspired styling with modern comfort. Featuring a durable leather upper, cushioned insole, low-cut silhouette, and a rubber cupsole for superior traction, these sneakers are ideal for everyday casual wear. :contentReference[oaicite:0]{index=0}",
+    "image": "products/nike-ebernon-shoe.png",
+    "stock": 35,
+    "category": "Shoes",
+    "rating": 4.7,
+    "reviews_count": 0,
+    "discount_percent": 0,
+    "warranty": "6 Months Manufacturer Warranty",
+    "return_policy": "7 Day Return Policy",
+    "delivery_info": "Free Delivery in 2-4 Days",
+    "highlights": [
+      "Premium Leather Upper",
+      "Classic 80s Basketball-Inspired Design",
+      "Low-Cut Comfortable Fit",
+      "Soft Cushioned Insole",
+      "Durable Rubber Cupsole",
+      "Excellent Grip and Traction",
+      "Breathable Textile Lining",
+      "Lightweight Everyday Sneakers",
+      "Lace-Up Secure Closure",
+      "Ideal for Casual and Daily Wear"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 11,
+  "fields": {
+    "name": "One8 Boom Rush Running Shoes",
+    "price": 9999.0,
+    "description": "The One8 Boom Rush Running Shoes are engineered for runners and fitness enthusiasts, featuring lightweight cushioning, a breathable mesh upper, responsive midsole, and durable rubber outsole for superior comfort and performance during daily runs, workouts, and active lifestyles.",
+    "image": "products/One8-athletic-shoes.png",
+    "stock": 22,
+    "category": "Shoes",
+    "rating": 4.0,
+    "reviews_count": 45,
+    "discount_percent": 12,
+    "warranty": "6 Months Manufacturer Warranty",
+    "return_policy": "7 Day Return Policy",
+    "delivery_info": "Free Delivery in 2-4 Days",
+    "highlights": [
+      "Lightweight Breathable Mesh Upper",
+      "Responsive Cushioned Midsole",
+      "Durable Rubber Outsole",
+      "Excellent Grip and Stability",
+      "Comfortable Padded Collar",
+      "Shock Absorption Technology",
+      "Ideal for Running and Gym Workouts",
+      "Sweat-Resistant Inner Lining",
+      "Secure Lace-Up Closure",
+      "Designed for Everyday Performance"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 12,
+  "fields": {
+    "name": "Montblanc Meisterstück Leather Wallet",
+    "price": 35999.0,
+    "description": "The Montblanc Meisterst�ck Leather Wallet is crafted from premium full-grain European leather, offering a sophisticated design with multiple card slots, dedicated cash compartments, and RFID protection. It combines timeless luxury with everyday functionality.",
+    "image": "products/montblanc-wallet.png",
+    "stock": 15,
+    "category": "Accessory",
+    "rating": 4.1,
+    "reviews_count": 175,
+    "discount_percent": 8,
+    "warranty": "2 Years International Warranty",
+    "return_policy": "7 Day Return Policy",
+    "delivery_info": "Free Delivery in 2-5 Days",
+    "highlights": [
+      "Premium Full-Grain European Leather",
+      "RFID Blocking Protection",
+      "6 Card Slots",
+      "2 Full-Length Cash Compartments",
+      "Slim and Elegant Design",
+      "Handcrafted Luxury Finish",
+      "Durable Soft Leather Construction",
+      "Embossed Montblanc Logo",
+      "Perfect for Everyday Use",
+      "Comes in Premium Gift Box"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 13,
+  "fields": {
+    "name": "Hidesign Genuine Leather Wallet",
+    "price": 4995.0,
+    "description": "The Hidesign Genuine Leather Wallet is handcrafted from premium vegetable-tanned leather, offering a sleek and durable design with multiple card slots, spacious cash compartments, and RFID protection. It is perfect for everyday use with a premium finish and timeless style.",
+    "image": "products/hidesign.png",
+    "stock": 0,
+    "category": "Accessory",
+    "rating": 4.2,
+    "reviews_count": 248,
+    "discount_percent": 12,
+    "warranty": "1 Year Manufacturer Warranty",
+    "return_policy": "7 Day Return Policy",
+    "delivery_info": "Free Delivery in 2-5 Days",
+    "highlights": [
+      "Premium Vegetable-Tanned Genuine Leather",
+      "RFID Blocking Protection",
+      "8 Card Slots",
+      "2 Spacious Cash Compartments",
+      "Slim and Lightweight Design",
+      "Handcrafted by Hidesign Artisans",
+      "Soft Leather Interior",
+      "Durable Stitching for Long Life",
+      "Premium Embossed Hidesign Logo",
+      "Ideal for Daily and Formal Use"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 14,
+  "fields": {
+    "name": "Tommy Hilfiger Leather Wallet",
+    "price": 3499.0,
+    "description": "The Tommy Hilfiger Leather Wallet is crafted from premium genuine leather and features a sleek, minimalist design with multiple card slots, spacious cash compartments, and RFID protection. Finished with the iconic Tommy Hilfiger logo, it offers the perfect blend of style, durability, and everyday functionality.",
+    "image": "products/tommy-hilfiger_Aasl1VO.png",
+    "stock": 31,
+    "category": "Accessory",
+    "rating": 4.8,
+    "reviews_count": 386,
+    "discount_percent": 0,
+    "warranty": "1 Year Warranty1 Year Manufacturer Warranty",
+    "return_policy": "5 Day Return Policy",
+    "delivery_info": "Free Delivery in 2-4 Days",
+    "highlights": [
+      "Premium Genuine Leather",
+      "RFID Blocking Technology",
+      "8 Card Slots",
+      "2 Full-Length Cash Compartments",
+      "Dedicated ID Window",
+      "Slim and Lightweight Design",
+      "Iconic Tommy Hilfiger Metal Logo",
+      "Fine Contrast Stitching",
+      "Soft Fabric Inner Lining",
+      "Perfect for Everyday and Formal Use"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 15,
+  "fields": {
+    "name": "Ray-Ban Aviator Classic Sunglasses (Black)",
+    "price": 12999.0,
+    "description": "The Ray-Ban Aviator Classic Sunglasses feature premium black lenses, a lightweight metal frame, and 100% UV protection. Designed with the iconic aviator silhouette, these sunglasses offer timeless style, exceptional comfort, and crystal-clear vision for everyday wear.",
+    "image": "products/ray-ban-spects.png",
+    "stock": 22,
+    "category": "Accessory",
+    "rating": 4.8,
+    "reviews_count": 642,
+    "discount_percent": 15,
+    "warranty": "1 Year Warranty",
+    "return_policy": "7 Day Return Policy",
+    "delivery_info": "Free Delivery in 2-4 Days",
+    "highlights": [
+      "Classic Aviator Design",
+      "Premium Black G-15 Lenses",
+      "100% UV Protection",
+      "Lightweight Metal Frame",
+      "Scratch-Resistant Lenses",
+      "Adjustable Nose Pads",
+      "Crystal-Clear Optical Performance",
+      "Comfortable for All-Day Wear",
+      "Iconic Ray-Ban Branding",
+      "Protective Carrying Case Included"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 16,
+  "fields": {
+    "name": "LINDBERG Air Titanium Rim Eyeglasses",
+    "price": 64999.0,
+    "description": "The LINDBERG Air Titanium Rim Eyeglasses are handcrafted in Denmark using ultra-lightweight titanium for exceptional comfort and durability. Featuring a screwless minimalist design, adjustable nose pads, and premium optical lenses, these eyeglasses combine luxury craftsmanship with modern elegance.",
+    "image": "products/Minimalist-Lindberg-style_u4K1Lqv.png",
+    "stock": 12,
+    "category": "Accessory",
+    "rating": 4.9,
+    "reviews_count": 0,
+    "discount_percent": 98,
+    "warranty": "2 Years International Warranty",
+    "return_policy": "14 Day Return Policy",
+    "delivery_info": "Free Delivery in 1-2 Days",
+    "highlights": [
+      "Ultra-Lightweight Titanium Frame",
+      "Handcrafted in Denmark",
+      "Patented Screwless Hinge Design",
+      "Premium Optical Lenses",
+      "Adjustable Silicone Nose Pads",
+      "Corrosion-Resistant Titanium Construction",
+      "Minimalist Rim Design",
+      "Exceptional Comfort for All-Day Wear",
+      "Luxury Designer Eyewear",
+      "Protective Hard Case and Cleaning Cloth Included"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 17,
+  "fields": {
+    "name": "Voyage Black Lens Sunglasses",
+    "price": 2499.0,
+    "description": "The Voyage Black Lens Sunglasses feature a lightweight premium frame with polarized black lenses that provide 100% UV protection. Designed for everyday comfort and modern style, they offer excellent glare reduction and a durable construction suitable for driving, travel, and outdoor activities.",
+    "image": "products/voyage-black-lens.png",
+    "stock": 40,
+    "category": "Accessory",
+    "rating": 4.6,
+    "reviews_count": 0,
+    "discount_percent": 218,
+    "warranty": "1 Year Manufacturer Warranty",
+    "return_policy": "7 Day Return Policy",
+    "delivery_info": "Free Delivery in 2-4 Days",
+    "highlights": [
+      "Polarized Black Lenses",
+      "100% UV400 Protection",
+      "Lightweight Durable Frame",
+      "Scratch-Resistant Lenses",
+      "Comfortable Nose Pads",
+      "Glare Reduction Technology",
+      "Stylish Unisex Design",
+      "Suitable for Driving and Outdoor Use",
+      "Premium Protective Case Included",
+      "Microfiber Cleaning Cloth Included"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 18,
+  "fields": {
+    "name": "Daniel Klein Stainless Steel Bracelet",
+    "price": 2499.0,
+    "description": "The Daniel Klein Stainless Steel Bracelet features a sleek contemporary design crafted from premium stainless steel with a polished finish. Lightweight, durable, and comfortable to wear, it is the perfect accessory for casual, business, and formal occasions.",
+    "image": "products/daniel-klein-stainless-steel-bracelet.png",
+    "stock": 15,
+    "category": "Accessory",
+    "rating": 4.1,
+    "reviews_count": 122,
+    "discount_percent": 9,
+    "warranty": "1 Year Warranty",
+    "return_policy": "No Return Policy",
+    "delivery_info": "Free Delivery in 2-4 Days",
+    "highlights": [
+      "Premium Stainless Steel Construction",
+      "Elegant Polished Finish",
+      "Adjustable Bracelet Size",
+      "Rust and Corrosion Resistant",
+      "Lightweight Comfortable Fit",
+      "Secure Fold-Over Clasp",
+      "Modern Minimalist Design",
+      "Suitable for Daily and Formal Wear",
+      "Premium Daniel Klein Branding",
+      "Gift Box Included"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 19,
+  "fields": {
+    "name": "Fossil Vintage Casual Leather Bracelet",
+    "price": 3495.0,
+    "description": "The Fossil Vintage Casual Leather Bracelet combines genuine braided leather with premium stainless steel accents for a timeless and rugged look. Designed for everyday comfort, this bracelet complements both casual and smart-casual outfits while offering durability and effortless style.",
+    "image": "products/fossil-vintage-casual.png",
+    "stock": 24,
+    "category": "Accessory",
+    "rating": 4.8,
+    "reviews_count": 296,
+    "discount_percent": 13,
+    "warranty": "1 Year Warranty",
+    "return_policy": "No Day Return Policy",
+    "delivery_info": "Free Delivery in 2-4 Days",
+    "highlights": [
+      "Premium Genuine Braided Leather",
+      "Stainless Steel Magnetic Clasp",
+      "Vintage Casual Design",
+      "Comfortable Lightweight Fit",
+      "Durable Handcrafted Construction",
+      "Rust-Resistant Steel Hardware",
+      "Suitable for Everyday Wear",
+      "Secure Magnetic Lock",
+      "Signature Fossil Branding",
+      "Premium Gift Box Included"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 20,
+  "fields": {
+    "name": "Sonos Ace Wireless Headphones (White)",
+    "price": 39999.0,
+    "description": "The Sonos Ace Wireless Headphones deliver premium lossless audio, active noise cancellation, spatial audio with dynamic head tracking, and up to 30 hours of battery life. Designed with plush memory foam ear cushions and a lightweight frame, they provide exceptional comfort and immersive sound for music, movies, and calls.",
+    "image": "products/sonos-ace-white.png",
+    "stock": 20,
+    "category": "Accessory",
+    "rating": 4.9,
+    "reviews_count": 328,
+    "discount_percent": 10,
+    "warranty": "5 Months Warranty",
+    "return_policy": "No Return Policy",
+    "delivery_info": "Free Delivery in 2-4 Days",
+    "highlights": [
+      "Hi-Res Lossless Audio",
+      "Active Noise Cancellation (ANC)",
+      "Aware Mode for Ambient Sound",
+      "Spatial Audio with Dynamic Head Tracking",
+      "Up to 30 Hours Battery Life",
+      "Fast Charging via USB-C",
+      "Bluetooth 5.4 Wireless Connectivity",
+      "Memory Foam Ear Cushions",
+      "Crystal Clear Voice Calls",
+      "Premium Protective Travel Case Included"
+    ]
+  }
+},
+{
+  "model": "app.product",
+  "pk": 21,
+  "fields": {
+    "name": "Marshall Major V Wireless Headphones (Black)",
+    "price": 14999.0,
+    "description": "The Marshall Major V Wireless Headphones deliver Marshall's signature sound with powerful custom-tuned dynamic drivers, Bluetooth LE Audio support, and an impressive battery life of over 100 hours. Featuring a foldable design, wireless charging capability, and a comfortable on-ear fit, they're ideal for music lovers on the go.",
+    "image": "products/marshall-major_6An5Jpc.png",
+    "stock": 22,
+    "category": "Accessory",
+    "rating": 4.0,
+    "reviews_count": 98,
+    "discount_percent": 15,
+    "warranty": "1 Year Warranty",
+    "return_policy": "5 Day Return Policy",
+    "delivery_info": "Free Delivery in 1-3 Days",
+    "highlights": [
+      "Marshall Signature Sound",
+      "100+ Hours Wireless Battery Life",
+      "Bluetooth LE Audio Ready",
+      "Wireless Charging Support",
+      "Custom-Tuned Dynamic Drivers",
+      "Built-In Microphone for Calls",
+      "Foldable Portable Design",
+      "Multi-Device Bluetooth Connectivity",
+      "Comfortable On-Ear Cushions",
+      "USB-C Fast Charging"
+    ]
+  }
+}
+]
