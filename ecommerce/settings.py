@@ -81,10 +81,6 @@ WSGI_APPLICATION = "ecommerce.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/6.0/ref/settings/#databases
 
-print("DB_NAME =", os.getenv("DB_NAME"))
-print("DB_HOST =", os.getenv("DB_HOST"))
-print("DB_USER =", os.getenv("DB_USER"))
-print("DB_PORT =", os.getenv("DB_PORT"))
 
 DATABASES = {
     "default": {
